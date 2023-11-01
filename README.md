@@ -21,7 +21,8 @@ AngularJS
 
 ## 🔗 Links
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+[![linkedin](https://www.linkedin.com/in/ishwarikape?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)](https://www.linkedin.com/)
+[![twitter](https://twitter.com/i/flow/login?redirect_after_login=%2FIshwariK117
+)](https://twitter.com/)
 
 
