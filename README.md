@@ -2,8 +2,7 @@
 
 # To-Do list using AngularJS
 
-
-![Screenshot (11)](https://github.com/IshwariK117/To-Do-List-Using-AngularJS/assets/99877551/9ab8c28d-21bc-494b-be5d-87b4ca958178)
+![Screenshot (11)](https://github.com/IshwariK117/To-Do-List-Using-AngularJS/assets/99877551/97f39da9-9536-4e21-bd7b-2fa84e9379bc)
 
 
 ## 🛠 Skills
