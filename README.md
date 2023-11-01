@@ -3,8 +3,8 @@
 # To-Do list using AngularJS
 
 
+![Screenshot (11)](https://github.com/IshwariK117/To-Do-List-Using-AngularJS/assets/99877551/9ab8c28d-21bc-494b-be5d-87b4ca958178)
 
-https://github.com/IshwariK117/To-Do-List-Using-AngularJS/blob/main/Screenshot%20(11).png" alt="Girl in a jacket" width="500" height="600">
 
 ## 🛠 Skills
 
