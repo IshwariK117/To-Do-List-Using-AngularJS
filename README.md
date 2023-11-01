@@ -4,8 +4,7 @@
 
 
 
-
-<img src="Screenshot (11).png" alt="Girl in a jacket" width="500" height="600">
+https://github.com/IshwariK117/To-Do-List-Using-AngularJS/blob/main/Screenshot%20(11).png" alt="Girl in a jacket" width="500" height="600">
 
 ## 🛠 Skills
 
