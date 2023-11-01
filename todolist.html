@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html ng-app="mymodule">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Corrected the syntax for including Bootstrap CSS and JavaScript -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+     <link rel="stylesheet" href="style.css">
+  
+</head>
+<body ng-controller="mycontroller">
+ 
+    <div class="con">
+     
+    <div class="container">
+        <p id="head">To Do List</p>
+        <form name="frm" ng-submit="addTodo()">
+            <input type="text" class="task-title" ng-model="newTodo.title" placeholder="Task Title" required>
+            <input type="date" class="task-due-date" ng-model="newTodo.date" required>
+            <button type="submit" ng-disabled="frm.$invalid">Add Task</button>
+        </form>
+    </div>
+    <hr>
+    <div class="container2">
+        <button ng-click="clearCompleted()">Clear completed</button>
+        <br>
+        <ul>
+            <li ng-repeat="todo in todos">
+                <button ng-click="edittask($index)" id="edit">Edit</button>
+            
+                <input type="checkbox" ng-model="todo.done">
+                <span ng-class="{'done': todo.done}">{{todo.title}}</span>
+                <span>{{todo.date}}</span>
+                </li>
+        </ul>
+    </div>
+</div>
+    <script>
+        let app = angular.module('mymodule', []);
+        app.controller('mycontroller', ['$scope', function ($scope) {
+            $scope.todos = [
+                {'title': 'Build a todo app', 'done': false, 'date': '2023-11-01'}
+            ];
+
+            $scope.addTodo = function () {
+                $scope.todos.push(angular.copy($scope.newTodo));
+                $scope.newTodo = { title: '', date: '' };
+            };
+
+            $scope.clearCompleted = function () {
+                $scope.todos = $scope.todos.filter(function (item) {
+                    return !item.done;
+                });
+            };
+
+
+            $scope.edittask = function (index) {
+                // Use prompt to edit the task title
+                const updatedTitle = prompt('Edit Task Title', $scope.todos[index].title);
+                if (updatedTitle !== null) {
+                    $scope.todos[index].title = updatedTitle;
+                }
+            };
+        }]);
+    </script>
+</body>
+</html>
