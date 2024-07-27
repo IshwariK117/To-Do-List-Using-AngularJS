@@ -4,7 +4,6 @@
 
 ![Screenshot (11)](https://github.com/IshwariK117/To-Do-List-Using-AngularJS/assets/99877551/97f39da9-9536-4e21-bd7b-2fa84e9379bc)
 
-
 ## 🛠 Skills
 
 
